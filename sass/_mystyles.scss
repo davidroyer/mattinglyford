@@ -1,0 +1,201 @@
+.navbar-nav {
+	float: right;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+	font-family: "Roboto";
+	font-size: 1.2em;
+	line-height: 1.7;
+	font-weight: 400;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+// CONTACT INFO FOR HEADER
+
+.contact-info p {
+	float: right;
+	display: inline-block;
+	padding: 15px 15px;
+	line-height: 64px;
+	font-size: 16px;
+
+	
+}
+
+@media (min-width: 768px) {
+	.container {
+	  width: 90%;
+	}
+}
+
+body {
+	color: $lighter-black;
+}
+
+
+
+header {
+	background-color: $lighter-black;
+}
+
+.fa-stack {
+	font-size: 4em;
+	cursor: pointer;
+}
+
+.fa-stack-2x {
+	color: #C15353;
+}
+
+.contact-info {
+
+	.fa {
+		margin-right: 5px;
+		font-size: 1.1em;
+		color: #C15353;
+	}
+	a {
+		color: $gray;
+	}
+}
+
+// IMAGES FOR LIST ITEMS
+.list--image {
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+
+
+}
+
+
+.section--header {
+	text-align: center;
+}
+
+.section {
+	border-bottom: 1px solid gray;
+	padding: 30px 0 50px 0;
+
+	&--header {
+		margin: 40px;
+	}
+}
+
+.list-item {
+
+	&--header {
+	@extend %h3-style;
+	}
+
+	&--horizontal-links {
+		display: inline-block;
+		border-right: 1px solid #A9A9A9;
+		padding: 0 5px;
+
+		
+		&:last-child {
+			border-right: none;
+		}
+	}
+	
+}
+
+/* Small devices (tablets, 768px and up) */
+
+.unordered-list--grid {
+	
+	margin-bottom: 25px;
+	padding-left: 60px;
+
+	@media (min-width: 768px) {
+		width: 49%;
+		display: inline-block;
+		padding-left: 60px;
+	}
+
+	@media (min-width: 992px) {
+		width: 33%;
+	}
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	font-family: "Roboto";
+	list-style: none;
+	font-family: "Roboto";
+	font-size: 1.2em;
+	line-height: 1.7;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto Condensed";
+	font-weight: 700;
+}
+
+.jumbotron h1 {
+	font-weight: 400;
+}
+
+.panel-sidebar {
+	padding: 30px 0 30px 50px;
+	background-color: #ddd;
+	border: 2px solid darken(#ddd, 20%)
+}
+
+.unordered-list--bulleted {
+	list-style-type: disc;
+
+	li {
+		list-style: inherit;
+		padding: 10px 0;
+	}
+}
+
+.blockquote-large {
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 300;
+	margin-top: 30px;
+	line-height: 2;
+}
+
+// .col-sm-4.col-500 {
+// 	@include respond-to(mysmall) {
+// 		width: 31%;
+// 		display: inline-block;
+// 		h2 {
+// 			font-size: 24px;	
+// 		}
+// 	}
+
+// }
+
+@media only screen and (min-width:480px) and (max-width: 767px) {
+	.col-sm-4.col-500 {
+		width: 31%;
+		display: inline-block;
+		
+		h2 {
+			font-size: 22px;
+		}
+	}
+
+	.fa-stack {
+		font-size: 3em;
+	}
+
+}
