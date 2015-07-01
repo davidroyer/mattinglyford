@@ -5901,6 +5901,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Condensed";
   font-weight: 700; }
 
+.jumbotron {
+  background-color: #ccc; }
+
 .jumbotron h1 {
   font-weight: 400; }
 
@@ -5931,3 +5934,14 @@ h1, h2, h3, h4, h5, h6 {
 
   .fa-stack {
     font-size: 3em; } }
+.jumbotron__image {
+  border: 3px #3C3C3C solid;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42); }
+
+.image--shadow {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42); }
