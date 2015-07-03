@@ -215,3 +215,77 @@ h1, h2, h3, h4, h5, h6 {
 .image--shadow {
 	@include shadow;
 }
+
+/////  JULY 2nd
+
+p {
+	font-family: $body-font;
+	font-size: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $headings
+}
+
+a {
+	font-size: 1.1em;
+	font-family: $body-font;
+}
+
+li {
+	font-size: 1.4em;
+}
+
+footer a {
+	color: $footer-color-links;
+	font-size: 19px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 20px;
+	font-family: $headings;
+	color: #ccc;
+}
+
+// ICONS FOR HOME LISTS
+
+span.icon {
+	vertical-align: middle;
+	font-size: 350%;
+	margin-right: 60px;
+}
+
+.list-item--icon {
+	display: inline-block;
+	width: 80%;
+	vertical-align: middle;
+	font-size: inherit;
+}
+
+.list--push-right {
+	padding-left: 50px;
+}
+
+.list--push-right > li {
+	margin: 20px;
+}
+
+.btn-info {
+	color: #fff;
+	background-color: #C15353;
+	border-color: #845A5A;
+	font-size: 19px;
+	font-weight: 700;
+	margin: 5px 0;
+	-webkit-transition: all 0.4s cubic-bezier(0.46, 0.31, 0.38, 1.2);
+	transition: all 0.4s cubic-bezier(0.46, 0.31, 0.38, 1.2);
+	
+
+	&:hover {
+		color: #C15353;
+		background-color: #fff;
+		border-color: #C15353;
+	}
+}
+
+
