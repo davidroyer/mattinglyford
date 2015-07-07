@@ -1,4 +1,6 @@
 @import 'bootstrap/bootstrap';
 @import 'base/index';
 @import 'mixins';
-@import 'mystyles.scss';
+@import 'modules/index';
+@import 'layout/index';
+@import 'mystyles';

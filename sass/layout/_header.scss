@@ -42,6 +42,8 @@ header {
 // CONTACT INFO FOR HEADER
 
 .contact-info {
+	
+	display: none;
 
 	.fa {
 		margin-right: 5px;
@@ -51,4 +53,9 @@ header {
 	a {
 		color: $gray;
 	}
+
+	 @include respond-to(medium) {
+		display: block;
+	}
+
 }
