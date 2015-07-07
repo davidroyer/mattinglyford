@@ -5859,6 +5859,16 @@ img {
 .btn-info {
   border: none; }
 
+@media (min-width: 992px) {
+  #mobile-menu {
+    display: none; } }
+
+#desktop-menu {
+  display: none; }
+  @media (min-width: 992px) {
+    #desktop-menu {
+      display: block; } }
+
 .sub-menu {
   display: none; }
   @media (min-width: 992px) {
@@ -6268,3 +6278,23 @@ span.icon {
     color: #C15353;
     background-color: #fff;
     border-color: #C15353; }
+
+.mobile-nav {
+  height: 100%;
+  overflow-y: scroll; }
+
+#mobile-menu a {
+  color: white;
+  font-size: 17px;
+  font-family: "Playfair Display", sans-serif; }
+#mobile-menu .has-menu {
+  border-bottom: 2px solid #C5C5C5;
+  font-size: 17px;
+  font-family: "Playfair Display", sans-serif;
+  padding: 10px 15px 0;
+  color: #C5C5C5;
+  font-weight: 700;
+  letter-spacing: 1px; }
+
+.sub-menu--mobile a {
+  padding: 10px 15px; }
