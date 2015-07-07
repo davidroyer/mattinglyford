@@ -1,0 +1,54 @@
+header {
+	background-color: $lighter-black;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 70px;
+	z-index: 30;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
+	-moz-box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
+	box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
+
+	@media (min-width: 992px) {
+		box-shadow: none;
+	}
+}
+
+.navbar-brand {
+	width: 280px;
+}
+
+
+.menu-icon {
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 24px;
+  font-size: 30px;
+}
+
+
+@media (min-width: 992px) {
+	.box-shadow--header {
+		-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.86), 0 2px 10px 0 rgba(42, 5, 5, 0.82);
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.86), 0 2px 10px 0 rgba(42, 5, 5, 0.82);
+	}
+}
+
+
+
+
+// CONTACT INFO FOR HEADER
+
+.contact-info {
+
+	.fa {
+		margin-right: 5px;
+		font-size: 1.1em;
+		color: #C15353;
+	}
+	a {
+		color: $gray;
+	}
+}

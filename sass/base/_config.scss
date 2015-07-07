@@ -1,0 +1,59 @@
+$breakpoints: (
+  small: 768px,
+  medium: 992px,
+  large: 1200px
+);
+ 
+// _mixins.scss
+@mixin respond-to($breakpoint) { 
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+ 
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  list-style: none;
+  line-height: 1.7;
+  font-weight: 400;
+  font-family: $body-font;
+  font-size: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings;
+  font-weight: 700;
+}
+
+a {
+  font-size: 1.1em;
+  font-family: $body-font;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  font-family: "Roboto";
+  font-size: 1.4em;
+  line-height: 1.7;
+  font-weight: 400;
+
+}
+
+img {
+  max-width: 100%;
+}

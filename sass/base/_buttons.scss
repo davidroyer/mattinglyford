@@ -1,0 +1,25 @@
+.btn {
+	  background-color: #eee;
+	  border-radius: 4px;
+	  font-size: 20px;
+	  font-weight: 700;
+	  letter-spacing: 1px;
+	  color: rgb(181, 54, 54);
+	  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.76);
+	   -webkit-transition: all 0.4s cubic-bezier(0.46, 0.31, 0.38, 1.2);
+	    transition: all 0.4s cubic-bezier(0.46, 0.31, 0.38, 1.2);	
+	    border: none;
+}
+
+.btn-primary {
+	font-family: "Playfair Display";
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #B53636;
+  border: none;
+}
+
+.btn-info {
+	border: none;
+}
