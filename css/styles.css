@@ -5822,6 +5822,9 @@ h1, h2, h3, h4, h5, h6 {
 a {
   font-size: 1.1em;
   font-family: "Roboto", sans-serif; }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #2c2c2c; }
 
 ul {
   padding-left: 0; }
@@ -5911,10 +5914,12 @@ img {
   opacity: 0; }
   @media (max-width: 991px) {
     .nav-drawer {
-      position: fixed;
-      right: 0;
-      top: 70px;
       height: 100%;
+      width: 100%;
+      top: 0;
+      position: fixed;
+      padding-top: 70px;
+      right: 0;
       width: 265px;
       text-align: right; }
       .nav-drawer.menu-open {
@@ -6286,7 +6291,13 @@ span.icon {
 #mobile-menu a {
   color: white;
   font-size: 17px;
-  font-family: "Playfair Display", sans-serif; }
+  font-family: "Playfair Display", sans-serif;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background: none; }
+  #mobile-menu a:hover, #mobile-menu a:focus, #mobile-menu a:active {
+    color: #2c2c2c;
+    font-weight: 700; }
 #mobile-menu .has-menu {
   border-bottom: 2px solid #C5C5C5;
   font-size: 17px;
@@ -6298,3 +6309,7 @@ span.icon {
 
 .sub-menu--mobile a {
   padding: 10px 15px; }
+
+#desktop-menu a:hover, #desktop-menu a:focus, #desktop-menu a:active {
+  color: #2c2c2c;
+  background: transparent; }

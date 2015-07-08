@@ -301,6 +301,14 @@ span.icon {
 		color: white;
 		font-size: 17px;
 		font-family: $headings;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		background: none;
+
+		&:hover, &:focus, &:active {
+		  color: #2c2c2c;
+		  font-weight: 700;
+		}
 	}
 
 	.has-menu {
@@ -321,4 +329,13 @@ span.icon {
 }
 
 
+#desktop-menu {
+	
+	a {
 
+		&:hover, &:focus, &:active {
+			color: #2c2c2c;
+			background: transparent;
+		}
+	}
+}
