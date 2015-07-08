@@ -5839,6 +5839,9 @@ li {
 img {
   max-width: 100%; }
 
+body {
+  font-size: 13px; }
+
 .btn {
   background-color: #eee;
   border-radius: 4px;
@@ -6024,6 +6027,25 @@ header {
     .contact-info {
       display: block; } }
 
+.navbar-brand {
+  padding: 0; }
+
+.navbar-brand > img {
+  width: 300px;
+  padding-top: 20px;
+  max-width: none; }
+  @media (min-width: 992px) {
+    .navbar-brand > img {
+      width: 400px;
+      padding-top: 15px; } }
+
+#menu-toggle {
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 24px;
+  font-size: 30px; }
+
 /*	/////////////
 
 WRAPPER
@@ -6089,6 +6111,12 @@ IMAGES
 footer a {
   color: #C15353;
   font-size: 19px; }
+
+.icomoon, .icomoon--large {
+  color: gray;
+  font-size: 48px; }
+  .icomoon--large {
+    font-size: 130px; }
 
 .navbar-nav {
   float: right; }

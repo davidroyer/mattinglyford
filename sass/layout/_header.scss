@@ -59,3 +59,26 @@ header {
 	}
 
 }
+
+.navbar-brand {
+	padding: 0;
+}
+.navbar-brand > img {
+	width: 300px;
+	padding-top: 20px;
+	max-width: none;
+
+	@include respond-to(medium) {
+		width: 400px;
+		padding-top: 15px;
+	}
+}
+
+#menu-toggle {
+	color: white;
+	position: fixed;
+	right: 20px;
+	top: 24px;
+	font-size: 30px;
+}
+

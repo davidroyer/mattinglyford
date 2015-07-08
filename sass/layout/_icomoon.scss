@@ -1,0 +1,9 @@
+.icomoon {
+	color: gray;
+	font-size: 48px;
+
+	&--large {
+		@extend .icomoon;
+		font-size: 130px;
+	}
+}
