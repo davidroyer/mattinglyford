@@ -42,11 +42,59 @@ $(document).ready(function() {
 			
 	// });
 
-	var hasMenu = $('.has-menu');
+	// var hasMenu = $('.has-menu');
 	
-	hasMenu.on('click', function() {
-		$(this).children('.sub-menu').toggle("slow");
-	});
+
+	// hasMenu.on('hover', function() {}
+
+
+
+	// 	mouseover: function() {
+	// 	    $(this).children('.sub-menu').toggle("slow");
+	// 	},
+
+	// 	mouseleave: function() {
+	// 	    $(this).children('.sub-menu').toggle("slow");
+	// 	},
+
+		
+	// });
+
+
+
+	// hasMenu.on({
+
+	// 	mouseover: function() {
+	// 	    $(this).children('.sub-menu').toggle("slow");
+	// 	},
+
+	// 	mouseleave: function() {
+	// 	    $(this).children('.sub-menu').toggle("slow");
+	// 	},
+
+		
+	// });
+
+
+
+
+	// var mainImage = $('#gallery-main-image');
+
+	// $('.gallery--image').on({
+	    
+	//     mouseover: function() {
+	//         $(this).addClass('scale-in');
+	//     },
+
+	//     mouseleave: function() {
+	//         $(this).removeClass('scale-in');
+	//     },
+
+	//     click: function() {
+	//         var mainImageUrl = $(this).attr('src');
+	//         mainImage.attr('src', mainImageUrl);                    
+	//     }
+	// });
 	// if ($(window).width() > 991 ) {
 		
 	// 	hasMenu.addClass('has-menu--hidden');

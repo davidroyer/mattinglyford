@@ -5961,6 +5961,19 @@ body {
   font-family: "Playfair Display", sans-serif;
   color: #ccc; }
 
+.sub-menu {
+  display: block;
+  visibility: hidden;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  opacity: 0; }
+
+.has-menu:hover > .sub-menu {
+  visibility: visible;
+  opacity: 1; }
+
 .jumbotron .jumbotron--primary-heading {
   font-size: 10vw;
   font-weight: 400; }
