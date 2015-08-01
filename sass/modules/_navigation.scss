@@ -65,9 +65,8 @@
 
 
 .nav-drawer {
-	z-index: -1;
 	background-color: $prim-red;
-	opacity: 0;
+	opacity: 1;
 	
 	@media (max-width: 991px) {
 		@include mobileNav;
@@ -147,6 +146,9 @@
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 	opacity: 0;
+	width: 100px;
+	width: inherit;
+	white-space: nowrap;
 
 	
 }

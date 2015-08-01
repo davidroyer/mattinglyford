@@ -5912,9 +5912,8 @@ body {
   position: relative; }
 
 .nav-drawer {
-  z-index: -1;
   background-color: #b53636;
-  opacity: 0; }
+  opacity: 1; }
   @media (max-width: 991px) {
     .nav-drawer {
       height: 100%;
@@ -5968,7 +5967,10 @@ body {
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  opacity: 0; }
+  opacity: 0;
+  width: 100px;
+  width: inherit;
+  white-space: nowrap; }
 
 .has-menu:hover > .sub-menu {
   visibility: visible;

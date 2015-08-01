@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".nav-toggle").on("click",function(e){e.preventDefault(),$(".wrapper").toggleClass("menu-open"),$(".nav-drawer").toggleClass("menu-open")})});
+$(document).ready(function(){$(".nav-toggle").on("click",function(e){e.preventDefault(),$(".wrapper").toggleClass("menu-open"),$(".nav-drawer").toggleClass("menu-open")}),$(".test").on("click",function(e){e.preventDefault(),$(".wrapper").toggleClass("menu-open")})});

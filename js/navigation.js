@@ -139,6 +139,11 @@ $(document).ready(function() {
 		$('.nav-drawer').toggleClass('menu-open');
 	});
 
+	$('.test').on('click', function(event) {
+		event.preventDefault();
+		$('.wrapper').toggleClass('menu-open');
+	});
+
 }); // END OF DOCUMENT READY
 
 
