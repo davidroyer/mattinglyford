@@ -1503,17 +1503,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mattingly-ford-main-header-edit.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 58563,
-		"inputAbbreviatedPath": "\/img\/mattingly-ford-main-header-edit.JPG",
-		"outputAbbreviatedPath": "\/img\/mattingly-ford-main-header-edit.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/mattingly-ford-main-header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1554,6 +1543,17 @@
 		"initialSize": 160946,
 		"inputAbbreviatedPath": "\/img\/tablet.jpg",
 		"outputAbbreviatedPath": "\/img\/tablet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/test-mattingly-ford-main-header-edit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58563,
+		"inputAbbreviatedPath": "\/img\/test-mattingly-ford-main-header-edit.jpg",
+		"outputAbbreviatedPath": "\/img\/test-mattingly-ford-main-header-edit.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
