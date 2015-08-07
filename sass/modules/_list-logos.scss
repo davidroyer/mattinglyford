@@ -1,0 +1,15 @@
+// IMAGES FOR LIST ITEMS
+
+.list--image {
+	
+	width: 49%;
+	margin-bottom: 30px;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+
+	@include respond-to(small) {
+		width: 24%;
+	}
+
+}

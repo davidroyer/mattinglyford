@@ -1,5 +1,9 @@
 @import url($font-body-url);
 // @import url($font-headings-url);
+
+
+// PLACEHOLDERS
+
 %h3-style {
 	font-family: inherit;
 	font-weight: 500;
@@ -10,27 +14,34 @@
 	margin-bottom: 10px;
 }
 
-$breakpoints: (
-  'mysmall' : ( min-width:  500px ),
-  'medium' : ( min-width:  992px ),
-  'large'  : ( min-width: 1200px )
-);
-  
-@mixin respond-to($name) {
-  // If the key exists in the map
-  @if map-has-key($breakpoints, $name) {
-    // Prints a media query based on the value
-    @media #{inspect(map-get($breakpoints, $name))} {
-      @content;
-    }
-  }
- 
-  // If the key doesn't exist in the map
-  @else {
-    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
-        + "Please make sure it is defined in `$breakpoints` map.";
-  }
+
+%section {
+	@include clearfix;
+	border-bottom: 1px solid gray;
+	padding: 30px 0 50px 0;
 }
+
+// $breakpoints: (
+//   'mysmall' : ( min-width:  500px ),
+//   'medium' : ( min-width:  992px ),
+//   'large'  : ( min-width: 1200px )
+// );
+  
+// @mixin respond-to($name) {
+//   // If the key exists in the map
+//   @if map-has-key($breakpoints, $name) {
+//     // Prints a media query based on the value
+//     @media #{inspect(map-get($breakpoints, $name))} {
+//       @content;
+//     }
+//   }
+ 
+//   // If the key doesn't exist in the map
+//   @else {
+//     @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+//         + "Please make sure it is defined in `$breakpoints` map.";
+//   }
+// }
 
 
 

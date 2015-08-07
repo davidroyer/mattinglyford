@@ -2,3 +2,12 @@ footer a {
 	color: $footer-color-links;
 	font-size: 19px;
 }
+
+.footer {
+
+	&-top {
+		@include clearfix;
+		border-bottom: 1px solid gray;
+		padding: 30px 0 50px 0;
+	}
+}

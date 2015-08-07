@@ -6,15 +6,6 @@ ul {
 	padding-left: 0;
 }
 
-li {
-	list-style: none;
-	font-family: "Roboto";
-	font-size: 1.2em;
-	line-height: 1.7;
-	font-weight: 400;
-
-}
-
 img {
 	max-width: 100%;
 }
@@ -50,6 +41,7 @@ header {
 .fa-stack {
 	font-size: 4em;
 	cursor: pointer;
+
 }
 
 .fa-stack-2x {
@@ -68,26 +60,9 @@ header {
 	}
 }
 
-// IMAGES FOR LIST ITEMS
-.list--image {
-	display: inline-block;
-	width: 24%;
-	text-align: center;
-}
 
 
-.section--header {
-	text-align: center;
-}
 
-.section {
-	border-bottom: 1px solid gray;
-	padding: 30px 0 50px 0;
-
-	&--header {
-		margin: 40px;
-	}
-}
 
 .list-item {
 
@@ -130,27 +105,19 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
-p {
-	font-family: "Roboto";
-	list-style: none;
-	font-family: "Roboto";
-	font-size: 1.2em;
-	line-height: 1.7;
-	font-weight: 400;
-}
+// p {
+// 	font-family: "Roboto";
+// 	list-style: none;
+// 	font-family: "Roboto";
+// 	font-size: 1.2em;
+// 	line-height: 1.7;
+// 	font-weight: 400;
+// }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Roboto Condensed";
-	font-weight: 700;
-}
-
-.jumbotron {
-	background-color: #ccc;
-}
-
-.jumbotron h1 {
-	font-weight: 400;
-}
+// h1, h2, h3, h4, h5, h6 {
+// 	font-family: "Roboto Condensed";
+// 	font-weight: 700;
+// }
 
 .panel-sidebar {
 	padding: 30px 0 30px 50px;
@@ -202,42 +169,12 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.jumbotron__image {
-	border: 3px #3C3C3C solid;
-	border-radius: 5px;
-	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
-}
 
-.image--shadow {
-	@include shadow;
-}
+
 
 /////  JULY 2nd
 
-p {
-	font-family: $body-font;
-	font-size: 1.4em;
-}
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: $headings
-}
-
-a {
-	font-size: 1.1em;
-	font-family: $body-font;
-}
-
-li {
-	font-size: 1.4em;
-}
-
-footer a {
-	color: $footer-color-links;
-	font-size: 19px;
-}
 
 .navbar-default .navbar-nav > li > a {
 	font-size: 20px;
@@ -283,57 +220,5 @@ span.icon {
 		color: #C15353;
 		background-color: #fff;
 		border-color: #C15353;
-	}
-}
-
-
-// **NEW** JULY 7TH ADDING SEPERATE MOBILE MENU
-
-.mobile-nav {
-	height: 100%;
-	overflow-y: scroll;
-}
-
-#mobile-menu {
-	a {
-		color: white;
-		font-size: 17px;
-		font-family: $headings;
-		-webkit-transition: all 0.2s ease;
-		transition: all 0.2s ease;
-		background: none;
-
-		&:hover, &:focus, &:active {
-		  color: #2c2c2c;
-		  font-weight: 700;
-		}
-	}
-
-	.has-menu {
-		border-bottom: 2px solid #C5C5C5;
-		font-size: 17px;
-		font-family: "Playfair Display", sans-serif;
-		padding: 10px 15px 0;
-		color: #C5C5C5;
-		font-weight: 700;
-		letter-spacing: 1px;
-	}
-}
-
-.sub-menu--mobile {
-	a {
-		padding: 10px 15px;
-	}
-}
-
-
-#desktop-menu {
-	
-	a {
-
-		&:hover, &:focus, &:active {
-			color: #2c2c2c;
-			background: transparent;
-		}
 	}
 }

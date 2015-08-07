@@ -7,8 +7,11 @@
 		<title>Mattingly Ford Title Services</title>
 		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500italic,500,700,900,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/icomoon.css" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,13 +23,13 @@
 	<body>
 
 	
-		<header>
+		<header id="header">
 			<div class="container">
-				<div class="row">
+				<div id="mobile-header" class="row">
 					<div class="col-sm-6">
-						<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Mattingly Ford Title Services Header Logo"></a>
+						<a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png" alt="Mattingly Ford Title Services Header Logo"></a>
 					</div>
-					
+					<a class="nav-toggle" href="#"><i id="menu-toggle" class="icomoon icon-menu-2"></i></a>
 					<div class="col-sm-6 contact-info">
 						<p class="phone"><a href="tel:5023141539"><i class="fa fa-phone"></i>502-314-1539</a></p>
 						<p class="email"><a class="nav-contact" href="mailto:csinger@chefchristinabakes.com"><i class="fa fa-envelope"></i>Email Us</a></p>
@@ -36,40 +39,63 @@
 					</div>
 				</div>	
 
-				<div class="row">
-					<div class="col-sm-12">
-						<nav class="navbar-inverse navbar-default" role="navigation">
-							
-
-							<ul class="nav navbar-nav">
-								<li>
-									<a href="index.html">Home</a>
-								</li>
-								<li>
-									<a href="#">Link</a>
-								</li>
-								<li>
-									<a href="about.html">About</a>
-								</li>
-								<li>
-									<a href="services.html">Services</a>
-								</li>
-								<li>
-									<a href="title.html">Order Title</a>
-								</li>
-								<li>
-									<a href="calculator.html">Calculator</a>
-								</li>
-								<li class="active">
-									<a href="contact-us.html">Contact Us</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
+				
 			</div>	<!-- END OF HEADER CONTAINER -->
 		</header>
 		
+		<div id="desktop-menu" class="row nav-drawer">
+			<div class="col-sm-12 box-shadow--header">
+				<nav class="navbar-inverse navbar-default" role="navigation">
+					<ul class="nav navbar-nav">
+						
+						<li>
+							<a href="#">Home</a>
+						</li>
+
+						<li>
+							<a href="services.html">Services</a>
+						</li>
+
+						<li>
+							<a href="calculator.html">Calculator</a>
+						</li>
+
+						<li class="has-menu">
+							<a href="#">About<i class="fa fa-angle-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="info.html">Info</a></li>
+								<li><a href="locations.html">Locations</a></li>
+								<li><a href="testimonials.html">Testimonials</a></li>
+							</ul>
+						</li>
+						
+						<li class="has-menu">
+							<a href="#">Forms<i class="fa fa-angle-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="listing-agent.html">Listing Agent</a></li>
+								<li><a href="selling-agent.html">Selling Agent</a></li>
+								<li><a href="title-order.html">Title Order</a></li>
+							</ul>
+						</li>
+
+						<li class="has-menu">
+							<a href="#">Resources<i class="fa fa-angle-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="webapp.html">Our Web App</a></li>
+								<li><a href="links.html">Links</a></li>
+								<li><a href="why-title-insurance.html">Why Title Insurance</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="contact-us.html">Contact Us</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+		<div class="wrapper">
 		<main>	
 			<div class="container">
 				
@@ -142,79 +168,262 @@
 					</ul>
 				</div>
 				
+				<div class="section">
+					
+					<h2 class="section--header">Louisville Office</h2>
+					
+					<div class="col-sm-6">
+						<ul class="contact-person">
+							<li class="contact-name">Receptionist</li>
+							<li>Extension 10</li>
+							<li>titleorders@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Carolyn Brewer</li>
+							<li class="contact-title">Escrow Manager</li>
+							<li>Extension 17</li>
+							<li>carolyn@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Catherine Greene</li>
+							<li class="contact-title">Closing Attorney</li>
+							<li>Extension 14</li>
+							<li>(502) 509-2224</li>
+							<li>cgreene@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Diane Muncy</li>
+							<li class="contact-title">Closing Paralegal</li>
+							<li>Extension 23</li>
+							<li>dmuncy@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Joe Grace</li>
+							<li class="contact-title">Director of Business Development</li>
+							<li>Extension 24</li>
+							<li>Mobile (502) 741-6585</li>
+							<li>joe@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Kelli Hessler</li>
+							<li class="contact-title">Shipping / Post Closing</li>
+							<li>Extension 22</li>
+							<li>kelli@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Kim Parrish</li>
+							<li class="contact-title">Commercial Paralegal</li>
+							<li>Extension 25</li>
+							<li>kim2@mattinglyford.com</li>
+						</ul>
+					</div>
+					
+					<div class="col-sm-6">
+						<ul class="contact-person">
+							<li class="contact-name">Lana Smith</li>
+							<li class="contact-title">Paralegal Manager</li>
+							<li>Extension 26</li>
+							<li>lana@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Linda K. Myers</li>
+							<li class="contact-title">Director of Business Development</li>
+							<li>Extension 30</li>
+							<li>Mobile (502) 523-2502</li>
+							<li>linda@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Lisa Hankins</li>
+							<li class="contact-title">Title Clerk</li>
+							<li>Extension 16</li>
+							<li>lhankins@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Marla Woods</li>
+							<li class="contact-title">Title Policies</li>
+							<li>Extension 18</li>
+							<li>marla@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Mary Price</li>
+							<li class="contact-title">Title Examiner</li>
+							<li>Extension 29</li>
+							<li>mary@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Robin Anthony</li>
+							<li class="contact-title">Setup paralegal</li>
+							<li>Extension 41</li>
+							<li>ranthony@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Stacy Book</li>
+							<li class="contact-title">Commercial Paralegal</li>
+							<li>Extension 19</li>
+							<li>stacy@mattinglyford.com</li>
+						</ul>
+						
+						<ul class="contact-person">
+							<li class="contact-name">Stacey Newton</li>
+							<li class="contact-title">Director of Business Development</li>
+							<li>Extension 21</li>
+							<li>snewton@mattinglyford.com</li>
+						</ul>
+					</div>
+				</div>
 
 			</div>	<!-- END OF MAIN CONTAINER -->
 			
 		</main>
 
-		<footer>
-			<div class="container">
-				<div class="footer-top row clearfix">
-					<div class="col-sm-4">
-						<h4>Services</h4>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-top row">
+						<div class="col-sm-4">
+							<h4>Services</h4>
+							<ul>
+								<li>
+									<a href="services.html">Residential & Commercial Transactions</a>
+								</li>
+								<li>
+									<a href="services.html">Escrow Closing Services</a>
+								</li>
+								<li>
+									<a href="services.html">Title Searches & Reports</a>
+								</li>
+								<li>
+									<a href="services.html">Title Insurance</a>
+								</li>
+								<li>
+									<a href="services.html">HUD Closings</a>
+								</li>
+								<li>
+									<a href="services.html">Short Sale Closings/Negotiations</a>
+								</li>
+								<li>
+									<a href="services.html">Witness Closings</a>
+								</li>
+								<li>
+									<a href="services.html">Government Loans</a>
+								</li>
+								<li>
+									<a href="services.html">UCC Searches & Reports</a>
+								</li>
+								<li>
+									<a href="services.html">Investment Property</a>
+								</li>
+								<li>
+									<a href="services.html">General Expertise in Real Estate Transactions</a>
+								</li>
+								<li>
+									<a href="services.html">Full Utilization of Technology</a>
+								</li>
+								<li>
+									<a href="services.html">E-Sign Certified</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<h4>Locations</h4>
+			
+							<ul>
+								<li><a href="our-locations.html">Louisville, KY</a></li>
+								<li><a href="our-locations.html">Mt. Washington, KY</a></li>
+								<li><a href="our-locations.html">Elizabethtown, KY</a></li>
+								<li><a href="our-locations.html">Owensboro, KY</a></li>
+								<li><a href="our-locations.html">New Albany, IN</a></li>
+								<li><a href="our-locations.html">Cincinnati, OH</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<h4>Main Office</h4>
+							<p translate="no">
+							1650 UPS Drive<br>
+							Suite 101<br>
+							Louisville, KY 47129
+							</p>
+						</div>
+					</div>	<!-- END OF FOOTER TOP -->
+					
+					<div class="footer-bottom row">
+						<div class="col-sm-3">
+							<img src="img/logo-small.png" alt="Mattingly Ford Footer Logo">
+						</div>
+						<div class="col-sm-9">
 						<ul>
-							<li>
-								<a href="services.html">Residential & Commercial Transactions</a>
-							</li>
-							<li>
-								<a href="services.html">Escrow Closing Services</a>
-							</li>
-							<li>
-								<a href="services.html">Title Searches & Reports</a>
-							</li>
-							<li>
-								<a href="services.html">Title Insurance</a>
-							</li>
-							<li>
-								<a href="services.html">HUD Closings</a>
-							</li>
-							<li>
-								<a href="services.html">Short Sale Closings/Negotiations</a>
-							</li>
-							<li>
-								<a href="services.html">Witness Closings</a>
-							</li>
-							<li>
-								<a href="services.html">Government Loans</a>
-							</li>
-							<li>
-								<a href="services.html">UCC Searches & Reports</a>
-							</li>
-							<li>
-								<a href="services.html">Investment Property</a>
-							</li>
-							<li>
-								<a href="services.html">General Expertise in Real Estate Transactions</a>
-							</li>
-							<li>
-								<a href="services.html">Full Utilization of Technology</a>
-							</li>
-							<li>
-								<a href="services.html">E-Sign Certified</a>
-							</li>
+							<li class="list-item--horizontal-links"><a href="good-funds-policy.html">Good Funds Policy</a></li>
+							<li class="list-item--horizontal-links"><a href="repeat-business.html">Repeat Business</a></li>
+							<li class="list-item--horizontal-links"><a href="disclaimer.html">Disclaimer</a></li>
+							<li class="list-item--horizontal-links"><a href="site-map.html">Site Map</a></li>
+							<li class="list-item--horizontal-links"><a href="site-info.html">Site Info</a></li>
 						</ul>
-					</div>
-					<div class="col-sm-4">
-						<h4>Location</h4>
-					</div>
-					<div class="col-sm-4">
-						<h4>Main Office</h4>
-					</div>
-				</div>	<!-- END OF FOOTER TOP -->
-				
-				<div class="footer-bottom row">
-					<div class="col-sm-3">
-						<img src="img/logo-small.png" alt="Mattingly Ford Footer Logo">
-					</div>
-					<div class="col-sm-9">Address Goes Here</div>
-				</div>	<!-- END OF FOOTER BOTTOM -->
-			</div>
-		</footer>
+						</div>
+					</div>	<!-- END OF FOOTER BOTTOM -->
+				</div>
+			</footer>
+		</div>
+		
+			
+		<div id="mobile-menu" class="nav-drawer">
+			<nav class="mobile-nav" role="navigation">
+				<ul class="nav navbar-nav">
+					
+					<li class="active">
+						<a href="#">Home</a>
+					</li>
 
-		<!-- jQuery -->
+					<li>
+						<a href="services.html">Services</a>
+					</li>
+
+					<li>
+						<a href="calculator.html">Calculator</a>
+					</li>
+
+					<li class="has-menu">About</li>
+						<ul class="sub-menu--mobile">
+							<li><a href="info.html">Info</a></li>
+							<li><a href="locations.html">Locations</a></li>
+							<li><a href="testimonials.html">Testimonials</a></li>
+						</ul>
+					</li>
+			
+					<li class="has-menu">Forms</li>
+						<ul class="sub-menu--mobile">
+							<li><a href="listing-agent.html">Listing Agent</a></li>
+							<li><a href="selling-agent.html">Selling Agent</a></li>
+							<li><a href="title-order.html">Title Order</a></li>
+						</ul>
+					
+					<li class="has-menu">Resources</li>
+						<ul class="sub-menu--mobile">
+							<li><a href="webapp.html">Our Web App</a></li>
+							<li><a href="links.html">Links</a></li>
+							<li><a href="why-title-insurance.html">Why Title Insurance</a></li>
+						</ul>
+					<li>
+						<a href="contact-us.html">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="js/navigation.js"></script>
 	</body>
 </html>
 

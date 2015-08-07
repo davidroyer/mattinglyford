@@ -1,0 +1,50 @@
+// **NEW** JULY 7TH ADDING SEPERATE MOBILE MENU
+
+.mobile-nav {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#mobile-menu {
+	a {
+		color: white;
+		font-size: 17px;
+		font-family: $headings;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		background: none;
+
+		&:hover, &:focus, &:active {
+		  color: #2c2c2c;
+		  font-weight: 700;
+		}
+	}
+
+	.has-menu {
+		border-bottom: 2px solid #C5C5C5;
+		font-size: 17px;
+		font-family: "Playfair Display", sans-serif;
+		padding: 10px 15px 0;
+		color: #C5C5C5;
+		font-weight: 700;
+		letter-spacing: 1px;
+	}
+}
+
+.sub-menu--mobile {
+	a {
+		padding: 10px 15px;
+	}
+}
+
+
+#desktop-menu {
+	
+	a {
+
+		&:hover, &:focus, &:active {
+			color: #2c2c2c;
+			background: transparent;
+		}
+	}
+}

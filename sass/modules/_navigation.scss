@@ -67,6 +67,7 @@
 .nav-drawer {
 	background-color: $prim-red;
 	opacity: 1;
+	overflow-y: hidden;
 	
 	@media (max-width: 991px) {
 		@include mobileNav;

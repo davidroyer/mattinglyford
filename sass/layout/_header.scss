@@ -68,9 +68,9 @@ header {
 	padding-top: 20px;
 	max-width: none;
 
-	@include respond-to(mysmall) {
+	@include respond-to(xsmall) {
 		
-		width: 300px;
+		width: 240px;
 	}
 
 	@include respond-to(medium) {

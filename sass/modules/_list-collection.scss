@@ -1,0 +1,29 @@
+.list-collection {
+	
+	& > li {
+
+		padding: 5px 0;
+	}
+
+	&--states > li {
+		width: 100%;
+		display: block;
+		font-size: 2.4rem;
+	    display: inline-block;
+	    padding: 10px;
+	    font-weight: 700;
+	    color: #6D6D6D;
+	    font-style: italic;
+
+		@include respond-to(xsmall) {
+			width: 48%;
+			display: inline-block;
+			font-size: 3rem;
+		}
+
+		@include respond-to(small) {
+			width: 32%;
+			display: inline-block;
+		}
+	}
+}

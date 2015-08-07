@@ -7,7 +7,25 @@
 	}
 }
 
-.jumbotron__image {
+
+
+
+
+
+.jumbotron {
+	
+	background-color: #ccc;
+	text-align: center;
+	
+	@include respond-to(small) {
+		text-align: left;
+	}
+
+	h1 {
+		font-weight: 400;
+	}
+
+	&__image {
 	border: 3px #3C3C3C solid;
 	border-radius: 5px;
 	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -21,13 +39,6 @@
 	}
 }
 
-.jumbotron {
-	text-align: center;
-	background-color: #ccc;
-	
-
-	@include respond-to(small) {
-		text-align: left;
-	}
 }
+
 

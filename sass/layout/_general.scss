@@ -1,3 +1,17 @@
+.section {
+	@include clearfix;
+	border-bottom: 1px solid gray;
+	padding: 30px 0 50px 0;
+	text-align: center;
+
+	&--header {
+		margin: 40px;
+	}
+
+	@inlcude respond-to(small) {
+		text-align: left;
+	}
+}
 
 /*	/////////////
 
