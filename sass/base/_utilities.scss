@@ -11,7 +11,7 @@
 }
 
 $breakpoints: (
-  'mysmall'    : ( min-width:  500px ),
+  'mysmall' : ( min-width:  500px ),
   'medium' : ( min-width:  992px ),
   'large'  : ( min-width: 1200px )
 );
@@ -31,3 +31,27 @@ $breakpoints: (
         + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
+
+
+
+
+  // 'bs-xsmall' : ( max-width:  500px ),
+  // 'bs-small' : ( min-width:  992px ),
+  // 'bs-medium'  : ( min-width: 1200px )
+
+// @mixin bp-bs_xsmall {
+//   @media screen and (max-width: 767px) {
+//     @content;
+//   }
+// }
+// @mixin bp-bs_small {
+//   @media screen and (min-width: 768px) {
+//     @content;
+//   }
+// }
+
+// @mixin bp-bs_medium {
+//   @media screen and (min-width: 992px) {
+//     @content;
+//   }
+// }

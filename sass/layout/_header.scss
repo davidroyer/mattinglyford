@@ -64,9 +64,14 @@ header {
 	padding: 0;
 }
 .navbar-brand > img {
-	width: 300px;
+	width: 230px;
 	padding-top: 20px;
 	max-width: none;
+
+	@include respond-to(mysmall) {
+		
+		width: 300px;
+	}
 
 	@include respond-to(medium) {
 		width: 400px;

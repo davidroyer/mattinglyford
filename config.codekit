@@ -1437,13 +1437,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/couple-buy-house-edit.JPG": {
+	"\/img\/couple-buy-house-edit.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 37430,
-		"inputAbbreviatedPath": "\/img\/couple-buy-house-edit.JPG",
-		"outputAbbreviatedPath": "\/img\/couple-buy-house-edit.JPG",
+		"inputAbbreviatedPath": "\/img\/couple-buy-house-edit.jpg",
+		"outputAbbreviatedPath": "\/img\/couple-buy-house-edit.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1503,6 +1503,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mattingly-ford-main-header-edit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58563,
+		"inputAbbreviatedPath": "\/img\/mattingly-ford-main-header-edit.jpg",
+		"outputAbbreviatedPath": "\/img\/mattingly-ford-main-header-edit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mattingly-ford-main-header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1543,17 +1554,6 @@
 		"initialSize": 160946,
 		"inputAbbreviatedPath": "\/img\/tablet.jpg",
 		"outputAbbreviatedPath": "\/img\/tablet.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/test-mattingly-ford-main-header-edit.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 58563,
-		"inputAbbreviatedPath": "\/img\/test-mattingly-ford-main-header-edit.jpg",
-		"outputAbbreviatedPath": "\/img\/test-mattingly-ford-main-header-edit.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3011,6 +3011,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/modules\/_jumbotron.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/_jumbotron.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/modules\/_marketing-stack.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/modules\/_marketing-stack.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_marketing-stack.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
