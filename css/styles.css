@@ -6023,7 +6023,8 @@ body {
 
 .mobile-nav {
   height: 100%;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 #mobile-menu {
   overflow-y: hidden; }
@@ -6129,12 +6130,13 @@ header {
   padding: 0; }
 
 .navbar-brand > img {
-  width: 230px;
-  padding-top: 20px;
+  width: 240px;
+  padding-top: 30px;
   max-width: none; }
   @media (min-width: 500px) {
     .navbar-brand > img {
-      width: 240px; } }
+      width: 300px;
+      padding-top: 25px; } }
   @media (min-width: 992px) {
     .navbar-brand > img {
       width: 400px;
