@@ -5958,7 +5958,9 @@ body {
     float: none; } }
 @media (min-width: 992px) {
   .navbar-nav > li {
-    display: inline-block; }
+    display: inline-block;
+    font-weight: 700;
+    padding: 0 5px; }
 
   .nav-toggle {
     display: none; } }
@@ -6011,6 +6013,8 @@ body {
 
 .marketing-stack__text {
   margin-top: 20px; }
+.marketing-stack__heading {
+  margin-bottom: 10px; }
 
 .contact-person {
   margin-bottom: 20px; }
@@ -6084,6 +6088,15 @@ body {
     .list-collection--states > li {
       width: 32%;
       display: inline-block; } }
+
+.profile__headshot {
+  border-radius: 50px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42); }
+.profile__bio {
+  max-width: 1000px;
+  margin: 30px auto 0; }
 
 header {
   background-color: #1f1f1f;
@@ -6190,9 +6203,8 @@ WRAPPER
     z-index: 1; } }
 .wrapper {
   position: relative;
-  top: 0px;
+  top: 70px;
   z-index: 20;
-  padding: 70px 0 0;
   height: 100%; }
   @media (min-width: 992px) {
     .wrapper {
@@ -6258,9 +6270,23 @@ img {
 .contact-info p {
   float: right;
   display: inline-block;
-  padding: 15px 15px;
+  padding: 5px 15px;
   line-height: 64px;
-  font-size: 16px; }
+  font-size: 15px;
+  color: #9c9c9c;
+  font-weight: 500; }
+  .contact-info p .icomoon, .contact-info p .icomoon--large {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+    color: white;
+    position: relative;
+    top: -2px;
+    color: #9c9c9c; }
+
+.contact-info a {
+  color: #e2dcde;
+  color: #9c9c9c; }
 
 @media (min-width: 768px) {
   .container {
@@ -6277,13 +6303,6 @@ header {
 
 .fa-stack-2x {
   color: #C15353; }
-
-.contact-info .fa {
-  margin-right: 5px;
-  font-size: 1.1em;
-  color: #C15353; }
-.contact-info a {
-  color: #e2dcde; }
 
 .list-item--horizontal-links {
   display: inline-block;
@@ -6336,18 +6355,26 @@ html {
 .navbar-default .navbar-nav > li > a {
   font-size: 20px;
   font-family: "Playfair Display", sans-serif;
-  color: #ccc; }
+  color: #E2E2E2; }
 
 span.icon {
-  vertical-align: middle;
-  font-size: 350%;
-  margin-right: 60px; }
+  vertical-align: middle; }
+
+.list--with-icons > li {
+  margin-bottom: 30px; }
+
+.icon--inline {
+  font-size: 4rem;
+  margin-right: 20px; }
 
 .list-item--icon {
   display: inline-block;
   width: 80%;
   vertical-align: middle;
   font-size: inherit; }
+  @media (min-width: 992px) {
+    .list-item--icon {
+      padding: 0 60px; } }
 
 .list--push-right {
   padding-left: 50px; }
@@ -6368,5 +6395,13 @@ span.icon {
     color: #C15353;
     background-color: #fff;
     border-color: #C15353; }
+
+.navbar-nav {
+  background-color: #b53636;
+  float: right; }
+  @media (min-width: 992px) {
+    .navbar-nav {
+      float: none;
+      text-align: center; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,12 @@
+.profile {
+
+	&__headshot {
+		border-radius: 50px;
+		@include shadow
+	}
+
+	&__bio {
+		max-width: 1000px;
+		margin: 30px auto 0;
+	}
+}

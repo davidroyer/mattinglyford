@@ -21,6 +21,12 @@
 	padding: 30px 0 50px 0;
 }
 
+%image-shadow {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
+}
+
 // $breakpoints: (
 //   'mysmall' : ( min-width:  500px ),
 //   'medium' : ( min-width:  992px ),
