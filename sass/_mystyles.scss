@@ -206,8 +206,13 @@ span.icon {
 }
 
 .icon--inline {
-	font-size: 4rem;
-    margin-right: 20px;
+	font-size: 3rem;
+    margin-right: 5px;
+
+    @include respond-to(xsmall) {
+    	font-style: 4rem;
+    	margin-right: 20px;
+    }
 
 }
 
@@ -217,6 +222,7 @@ span.icon {
 	width: 80%;
 	vertical-align: middle;
 	font-size: inherit;
+	padding: 0 15px;
 	
 	@include respond-to(medium) {
 		padding: 0 60px;

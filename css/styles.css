@@ -6174,7 +6174,7 @@ header {
   .section:after {
     clear: both; }
   .section--header {
-    margin: 40px; }
+    margin: 40px 0; }
 @inlcude respond-to(small) {
   .section {
     text-align: left; } }
@@ -6367,14 +6367,19 @@ span.icon {
   margin-bottom: 30px; }
 
 .icon--inline {
-  font-size: 4rem;
-  margin-right: 20px; }
+  font-size: 3rem;
+  margin-right: 5px; }
+  @media (min-width: 500px) {
+    .icon--inline {
+      font-style: 4rem;
+      margin-right: 20px; } }
 
 .list-item--icon {
   display: inline-block;
   width: 80%;
   vertical-align: middle;
-  font-size: inherit; }
+  font-size: inherit;
+  padding: 0 15px; }
   @media (min-width: 992px) {
     .list-item--icon {
       padding: 0 60px; } }
