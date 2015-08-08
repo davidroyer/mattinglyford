@@ -4,7 +4,7 @@ header {
 	width: 100%;
 	top: 0;
 	left: 0;
-	height: 70px;
+	height: 60px;
 	z-index: 30;
 	-webkit-box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
 	-moz-box-shadow: 0 2px 5px 0 rgba(40, 31, 31, 0.56), 0 2px 10px 0 rgba(32, 32, 32, 0.52);
@@ -65,18 +65,18 @@ header {
 }
 .navbar-brand > img {
 	width: 240px;
-	padding-top: 30px;
+	padding-top: 15px;
 	max-width: none;
 
 	@include respond-to(xsmall) {
 		
 		width: 300px;
-		padding-top: 25px;
+
 	}
 	
 	@include respond-to(medium) {
 		width: 400px;
-		padding-top: 15px;
+		padding-top: 5px;
 	}
 }
 
@@ -84,7 +84,13 @@ header {
 	color: white;
 	position: fixed;
 	right: 20px;
-	top: 24px;
+	top: 12px;
 	font-size: 30px;
+
+	@include respond-to(xsmall) {
+		
+		top: 15px;
+
+	}
 }
 
