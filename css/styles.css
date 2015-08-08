@@ -6193,7 +6193,8 @@ WRAPPER
   top: 0px;
   z-index: 20;
   padding: 70px 0 0;
-  height: 100%; }
+  height: 100%;
+  height: 100vh; }
   @media (min-width: 992px) {
     .wrapper {
       top: 120px; } }
