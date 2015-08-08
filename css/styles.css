@@ -6190,8 +6190,10 @@ WRAPPER
     z-index: 1; } }
 .wrapper {
   position: relative;
-  top: 70px;
-  z-index: 20; }
+  top: 0px;
+  z-index: 20;
+  padding: 70px 0 0;
+  height: 100%; }
   @media (min-width: 992px) {
     .wrapper {
       top: 120px; } }
