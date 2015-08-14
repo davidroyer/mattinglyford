@@ -6114,26 +6114,33 @@ body {
     padding: 50px;
     box-shadow: 0 2px 5px 0 rgba(62, 62, 62, 0.86), 0 2px 10px 0 rgba(62, 62, 62, 0.82) !important; } }
 
-.icons-contact__item {
-  padding: 10px 15px;
-  float: right;
-  display: inline-block;
-  line-height: 40px;
-  font-size: 15px;
-  color: #9c9c9c;
-  font-weight: 500; }
-.icons-contact .icomoon, .icons-contact .icomoon--large {
-  font-size: 20px;
-  vertical-align: middle;
-  margin-right: 4px;
-  color: white;
-  position: relative;
-  top: -2px;
-  color: #9c9c9c; }
-.icons-contact a {
-  color: #e2dcde;
-  color: #9c9c9c; }
+.icons-contact {
+  display: none; }
+  .icons-contact__item {
+    padding: 10px 15px;
+    float: right;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 15px;
+    color: #9c9c9c;
+    font-weight: 500; }
+  .icons-contact .icomoon, .icons-contact .icomoon--large {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+    color: white;
+    position: relative;
+    top: -2px;
+    color: #9c9c9c; }
+  .icons-contact a {
+    color: #e2dcde;
+    color: #9c9c9c; }
+  @media (min-width: 992px) {
+    .icons-contact {
+      display: block; } }
 
+@media (min-width: 992px) {
+  display: block; }
 .icons-contact a {
   color: #e2dcde;
   color: #9c9c9c; }
