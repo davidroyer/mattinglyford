@@ -39,26 +39,26 @@ header {
 
 
 
-// CONTACT INFO FOR HEADER
+// // CONTACT INFO FOR HEADER
 
-.contact-info {
+// .icons-contact {
 	
-	display: none;
+// 	display: none;
 
-	.fa {
-		margin-right: 5px;
-		font-size: 1.1em;
-		color: #C15353;
-	}
-	a {
-		color: $gray;
-	}
+// 	.fa {
+// 		margin-right: 5px;
+// 		font-size: 1.1em;
+// 		color: #C15353;
+// 	}
+// 	a {
+// 		color: $gray;
+// 	}
 
-	 @include respond-to(medium) {
-		display: block;
-	}
+// 	 @include respond-to(medium) {
+// 		display: block;
+// 	}
 
-}
+// }
 
 .navbar-brand {
 	padding: 0;

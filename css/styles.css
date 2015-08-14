@@ -6114,6 +6114,30 @@ body {
     padding: 50px;
     box-shadow: 0 2px 5px 0 rgba(62, 62, 62, 0.86), 0 2px 10px 0 rgba(62, 62, 62, 0.82) !important; } }
 
+.icons-contact__item {
+  padding: 10px 15px;
+  float: right;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 15px;
+  color: #9c9c9c;
+  font-weight: 500; }
+.icons-contact .icomoon, .icons-contact .icomoon--large {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 4px;
+  color: white;
+  position: relative;
+  top: -2px;
+  color: #9c9c9c; }
+.icons-contact a {
+  color: #e2dcde;
+  color: #9c9c9c; }
+
+.icons-contact a {
+  color: #e2dcde;
+  color: #9c9c9c; }
+
 header {
   background-color: #1f1f1f;
   position: fixed;
@@ -6143,18 +6167,6 @@ header {
   .box-shadow--header {
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.86), 0 2px 10px 0 rgba(42, 5, 5, 0.82);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.86), 0 2px 10px 0 rgba(42, 5, 5, 0.82); } }
-.contact-info {
-  display: none; }
-  .contact-info .fa {
-    margin-right: 5px;
-    font-size: 1.1em;
-    color: #C15353; }
-  .contact-info a {
-    color: #e2dcde; }
-  @media (min-width: 992px) {
-    .contact-info {
-      display: block; } }
-
 .navbar-brand {
   padding: 0; }
 
@@ -6285,27 +6297,6 @@ ul {
 
 img {
   max-width: 100%; }
-
-.contact-info p {
-  float: right;
-  display: inline-block;
-  padding: 5px 15px;
-  line-height: 64px;
-  font-size: 15px;
-  color: #9c9c9c;
-  font-weight: 500; }
-  .contact-info p .icomoon, .contact-info p .icomoon--large {
-    font-size: 20px;
-    vertical-align: middle;
-    margin-right: 4px;
-    color: white;
-    position: relative;
-    top: -2px;
-    color: #9c9c9c; }
-
-.contact-info a {
-  color: #e2dcde;
-  color: #9c9c9c; }
 
 @media (min-width: 768px) {
   .container {

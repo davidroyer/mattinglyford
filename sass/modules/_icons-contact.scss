@@ -1,0 +1,81 @@
+.icons-contact {
+
+	&__item {
+		padding: 10px 15px;
+		float: right;
+		display: inline-block;
+		line-height: 40px;
+		font-size: 15px;
+		color: #9c9c9c;
+		font-weight: 500;
+	}
+
+	& .icomoon {
+		font-size: 20px;
+		vertical-align: middle;
+		margin-right: 4px;
+		color: white;
+		position: relative;
+		top: -2px;
+		color: rgb(156, 156, 156);
+	}
+
+	a {
+		color: $gray;
+		color: #9c9c9c;
+	}
+
+}
+
+// CONTACT INFO FOR HEADER
+
+// .icons-contact {
+	
+// 	display: none;
+
+// 	.fa {
+// 		margin-right: 5px;
+// 		font-size: 1.1em;
+// 		color: #C15353;
+// 	}
+// 	a {
+// 		color: $gray;
+// 	}
+
+// 	 @include respond-to(medium) {
+// 		display: block;
+// 	}
+
+// }
+
+
+
+
+// .icons-contact p {
+// 	float: right;
+// 	display: inline-block;
+// 	padding: 5px 15px;
+// 	line-height: 64px;
+// 	font-size: 15px;
+// 	color: #9c9c9c;
+// 	font-weight: 500;
+
+// 	& .icomoon {
+// 		font-size: 20px;
+// 		vertical-align: middle;
+// 		margin-right: 4px;
+// 		color: white;
+// 		position: relative;
+// 		top: -2px;
+// 		color: rgb(156, 156, 156);
+// 	}
+	
+// }
+
+.icons-contact {
+
+	a {
+		color: $gray;
+		color: #9c9c9c;
+	}
+}
