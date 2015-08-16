@@ -6028,7 +6028,8 @@ body {
 .mobile-nav {
   height: 100%;
   overflow-y: scroll;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  padding-bottom: 30px; }
 
 #mobile-menu {
   overflow-y: hidden; }
@@ -6049,7 +6050,8 @@ body {
     padding: 10px 15px 0;
     color: #C5C5C5;
     font-weight: 700;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-transform: uppercase; }
 
 .sub-menu--mobile a {
   padding: 10px 15px; }
@@ -6166,7 +6168,7 @@ header {
 .menu-icon {
   color: white;
   position: fixed;
-  right: 20px;
+  right: 30px;
   top: 24px;
   font-size: 30px; }
 
@@ -6192,7 +6194,7 @@ header {
 #menu-toggle {
   color: white;
   position: fixed;
-  right: 20px;
+  right: 30px;
   top: 12px;
   font-size: 30px; }
   @media (min-width: 500px) {
