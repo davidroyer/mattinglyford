@@ -5813,11 +5813,13 @@ p {
   line-height: 1.7;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  font-size: 1.4em; }
+  font-size: 1.4em;
+  color: #2c2c2c; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #2c2c2c; }
 
 a {
   font-size: 1.1em;
@@ -5993,15 +5995,21 @@ body {
       font-size: 5vw; } }
 
 .jumbotron {
+  color: white;
   background-color: #ccc;
-  text-align: center; }
+  text-align: center;
+  background: #282828 url(../img/banner-landing-gray.png?1426543668) center bottom repeat-x;
+  border-bottom: 1px solid #092931;
+  background-size: cover; }
   @media (min-width: 768px) {
     .jumbotron {
       text-align: left; } }
+  .jumbotron p {
+    color: white; }
   .jumbotron h1 {
     font-weight: 400; }
   .jumbotron__image {
-    border: 3px #3C3C3C solid;
+    border: 5px #F7F7F7 solid;
     border-radius: 5px;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -6204,7 +6212,10 @@ header {
 .section {
   border-bottom: 1px solid gray;
   padding: 30px 0 50px 0;
-  text-align: center; }
+  text-align: center;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
   .section:before, .section:after {
     content: " ";
     display: table; }
@@ -6212,6 +6223,15 @@ header {
     clear: both; }
   .section--header {
     margin: 40px 0; }
+    @media (min-width: 500px) {
+      .section--header {
+        font-size: 3.5rem; } }
+    @media (min-width: 768px) {
+      .section--header {
+        font-size: 4rem; } }
+    @media (min-width: 992px) {
+      .section--header {
+        font-size: 5rem; } }
 @inlcude respond-to(small) {
   .section {
     text-align: left; } }
@@ -6345,9 +6365,19 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 .panel-sidebar {
-  padding: 30px 0 30px 50px;
-  background-color: #ddd;
-  border: 2px solid #aaaaaa; }
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.86), 0 2px 10px 0 rgba(42, 5, 5, 0.82);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.86), 0 2px 10px 0 rgba(42, 5, 5, 0.82);
+  padding: 10px 30px;
+  color: #2c2c2c;
+  background-color: #ddd; }
+  .panel-sidebar ul {
+    text-align: center;
+    list-style-position: inside; }
+    @media (min-width: 768px) {
+      .panel-sidebar ul {
+        text-align: left; } }
+  .panel-sidebar li {
+    font-weight: 500; }
 
 .unordered-list--bulleted {
   list-style-type: disc; }
