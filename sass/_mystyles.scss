@@ -36,6 +36,34 @@ header {
 
 }
 
+/*
+
+FORMS
+
+*/
+
+.form-group {
+
+	text-align: left;
+}
+
+
+textarea.form-control {
+
+	height: 7.5em;
+}
+
+
+label {
+	font-size: 1.3em
+}
+
+.padding-x-15 {
+
+	padding: 0 15px
+}
+
+
 .fa-stack-2x {
 	color: #C15353;
 }

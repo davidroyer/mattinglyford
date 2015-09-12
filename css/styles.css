@@ -6212,7 +6212,8 @@ header {
 .section {
   border-bottom: 1px solid gray;
   padding: 30px 0 50px 0;
-  text-align: center;
+  padding: 30px 20px 50px 20px;
+  text-align: left;
   max-width: 960px;
   margin-left: auto;
   margin-right: auto; }
@@ -6221,6 +6222,11 @@ header {
     display: table; }
   .section:after {
     clear: both; }
+  @media (min-width: 768px) {
+    .section {
+      text-align: center; } }
+  .section:first-of-type {
+    padding-top: 0; }
   .section--header {
     margin: 40px 0; }
     @media (min-width: 500px) {
@@ -6232,9 +6238,7 @@ header {
     @media (min-width: 992px) {
       .section--header {
         font-size: 5rem; } }
-@inlcude respond-to(small) {
-  .section {
-    text-align: left; } }
+
 /*	/////////////
 
 WRAPPER
@@ -6339,6 +6343,23 @@ header {
 .fa-stack {
   font-size: 4em;
   cursor: pointer; }
+
+/*
+
+FORMS
+
+*/
+.form-group {
+  text-align: left; }
+
+textarea.form-control {
+  height: 7.5em; }
+
+label {
+  font-size: 1.3em; }
+
+.padding-x-15 {
+  padding: 0 15px; }
 
 .fa-stack-2x {
   color: #C15353; }

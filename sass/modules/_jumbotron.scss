@@ -20,6 +20,7 @@
 	background: #282828 url(../img/banner-landing-gray.png?1426543668) center bottom repeat-x;
 	border-bottom: 1px solid #092931;
 	background-size: cover;
+	// background: #282828 url(../img/mattingly-ford-main-header-edit.jpg) center bottom repeat-x;
 	
 	@include respond-to(small) {
 		text-align: left;
