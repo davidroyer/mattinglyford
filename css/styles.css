@@ -6432,11 +6432,11 @@ html {
   color: #2c2c2c;
   background-color: #ddd; }
   .panel-sidebar ul {
-    text-align: center;
-    list-style-position: inside; }
+    text-align: center; }
     @media (min-width: 768px) {
       .panel-sidebar ul {
-        text-align: left; } }
+        text-align: left;
+        list-style-position: inside; } }
   .panel-sidebar li {
     font-weight: 500; }
 
