@@ -18,10 +18,13 @@
 
 	&-section ul {
 		
+		padding-left: 15px;
 		vertical-align: top;
+		
 		@include respond-to(small) {
 			display: inline-block;
 			width: 49%;
+			padding-left: 0;
 		}
 		
 	}

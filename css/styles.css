@@ -6039,11 +6039,13 @@ body {
 .contact-title {
   font-style: italic; }
 .contact-section ul {
+  padding-left: 15px;
   vertical-align: top; }
   @media (min-width: 768px) {
     .contact-section ul {
       display: inline-block;
-      width: 49%; } }
+      width: 49%;
+      padding-left: 0; } }
 
 .mobile-nav {
   height: 100%;
@@ -6408,12 +6410,14 @@ label {
 
 /* Small devices (tablets, 768px and up) */
 .unordered-list--grid {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  padding-left: 15px; }
   @media (min-width: 768px) {
     .unordered-list--grid {
       width: 49%;
       display: inline-block;
-      vertical-align: top; } }
+      vertical-align: top;
+      padding-left: 0; } }
   @media (min-width: 992px) {
     .unordered-list--grid {
       width: 33%; } }
