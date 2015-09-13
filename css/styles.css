@@ -5921,7 +5921,7 @@ body {
   position: relative; }
 
 .nav-drawer {
-  background-color: #b53636;
+  background-color: #3A3A3A;
   opacity: 1; }
   @media (max-width: 991px) {
     .nav-drawer {
@@ -5942,7 +5942,8 @@ body {
   height: 60px; }
 
 .navbar-nav {
-  padding-right: 20px; }
+  padding-right: 20px;
+  background-color: inherit; }
 
 .nav-drawer {
   z-index: 10; }
@@ -5953,7 +5954,8 @@ body {
       width: 100%;
       margin: 0;
       z-index: 30;
-      opacity: 1; } }
+      opacity: 1;
+      background-color: #b53636; } }
 
 @media (min-width: 768px) {
   .navbar-nav > li {
@@ -5995,6 +5997,7 @@ body {
       font-size: 5vw; } }
 
 .jumbotron {
+  padding-top: 0;
   color: white;
   background-color: #ccc;
   text-align: center;
@@ -6023,6 +6026,8 @@ body {
   margin-top: 20px; }
 .marketing-stack__heading {
   margin-bottom: 10px; }
+.marketing-stack i {
+  color: #b53636; }
 
 .contact-person {
   margin-bottom: 20px; }
@@ -6043,7 +6048,7 @@ body {
   overflow-y: hidden; }
   #mobile-menu a {
     color: white;
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Playfair Display", sans-serif;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -6053,13 +6058,15 @@ body {
       font-weight: 700; }
   #mobile-menu .has-menu {
     border-bottom: 2px solid #C5C5C5;
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Playfair Display", sans-serif;
     padding: 10px 15px 0;
     color: #C5C5C5;
     font-weight: 700;
     letter-spacing: 1px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #FF4C4C; }
 
 .sub-menu--mobile a {
   padding: 10px 15px; }
@@ -6327,6 +6334,21 @@ footer a {
       display: table; }
     .footer-top:after {
       clear: both; }
+  .footer-bottom {
+    padding-top: 10px; }
+  .footer list__horizontal-links {
+    text-align: center; }
+    @media (min-width: 992px) {
+      .footer list__horizontal-links {
+        float: right;
+        text-align: initial; } }
+
+.list__horizontal-links {
+  text-align: center; }
+  @media (min-width: 992px) {
+    .list__horizontal-links {
+      float: right;
+      text-align: initial; } }
 
 .icomoon, .icomoon--large {
   color: gray;
@@ -6389,7 +6411,8 @@ label {
   @media (min-width: 768px) {
     .unordered-list--grid {
       width: 49%;
-      display: inline-block; } }
+      display: inline-block;
+      vertical-align: top; } }
   @media (min-width: 992px) {
     .unordered-list--grid {
       width: 33%; } }
@@ -6484,11 +6507,12 @@ span.icon {
     border-color: #C15353; }
 
 .navbar-nav {
-  background-color: #b53636;
+  background-color: inherit;
   float: right; }
   @media (min-width: 992px) {
     .navbar-nav {
       float: none;
-      text-align: center; } }
+      text-align: center;
+      background-color: #b53636; } }
 
 /*# sourceMappingURL=styles.css.map */

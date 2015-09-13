@@ -12,4 +12,30 @@ footer a {
 		border-bottom: 1px solid gray;
 		padding: 30px 0 50px 0;
 	}
+
+
+	&-bottom {
+
+		padding-top: 10px;
+	}
+
+	& list__horizontal-links {
+		text-align: center;
+
+		@include respond-to(medium) {
+			float: right;
+			text-align: initial;
+		}
+		
+	}
+}
+
+.list__horizontal-links {
+	text-align: center;
+
+	@include respond-to(medium) {
+		float: right;
+		text-align: initial;
+	}
+	
 }
