@@ -6219,7 +6219,7 @@ header {
 .section {
   border-bottom: 1px solid gray;
   padding: 30px 0 50px 0;
-  padding: 30px 20px 50px 20px;
+  padding: 30px 10px 50px 10px;
   text-align: left;
   max-width: 960px;
   margin-left: auto;
@@ -6232,11 +6232,9 @@ header {
   @media (min-width: 768px) {
     .section {
       text-align: center; } }
-  .section .col-sm-6 {
-    padding: 0; }
-    @media (min-width: 768px) {
-      .section .col-sm-6 {
-        padding: 0 15px; } }
+  @media (min-width: 768px) {
+    .section .col-sm-6 {
+      padding: 0 15px; } }
   .section:first-of-type {
     padding-top: 0; }
   .section--header {
@@ -6251,10 +6249,6 @@ header {
     @media (min-width: 992px) {
       .section--header {
         font-size: 5rem; } }
-
-.row {
-  margin-left: 0;
-  margin-right: 0; }
 
 /*	/////////////
 
@@ -6463,10 +6457,13 @@ html {
   color: #E2E2E2; }
 
 span.icon {
-  vertical-align: middle; }
+  position: relative;
+  right: -20px;
+  top: 5px; }
 
 .list--with-icons > li {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  clear: both; }
 
 .icon--inline {
   font-size: 3rem;
@@ -6481,10 +6478,12 @@ span.icon {
   width: 80%;
   vertical-align: middle;
   font-size: inherit;
-  padding: 0 15px; }
+  padding: 0;
+  float: right; }
   @media (min-width: 992px) {
     .list-item--icon {
-      padding: 0 60px; } }
+      padding: 0 60px;
+      float: none; } }
 
 .list--push-right {
   padding-left: 50px; }

@@ -215,7 +215,10 @@ html {
 // ICONS FOR HOME LISTS
 
 span.icon {
-	vertical-align: middle;
+	
+	position: relative;
+    right: -20px;
+    top: 5px;
 
 }
 
@@ -223,6 +226,7 @@ span.icon {
 	
 	& > li {
 		margin-bottom: 30px;
+		clear: both;
 	}
 }
 
@@ -243,10 +247,12 @@ span.icon {
 	width: 80%;
 	vertical-align: middle;
 	font-size: inherit;
-	padding: 0 15px;
+	padding: 0;
+	float: right;
 	
 	@include respond-to(medium) {
 		padding: 0 60px;
+		float: none;
 	}
 
 }
