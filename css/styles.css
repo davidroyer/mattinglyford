@@ -5819,7 +5819,8 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  color: #2c2c2c; }
+  color: #2c2c2c;
+  line-height: 1.4; }
 
 a {
   font-size: 1.1em;
@@ -6433,7 +6434,19 @@ html {
   list-style-type: disc; }
   .unordered-list--bulleted li {
     list-style: inherit;
-    padding: 10px 0; }
+    padding: 10px 0;
+    text-align: left; }
+    @media (min-width: 500px) {
+      .unordered-list--bulleted li {
+        display: inline-block;
+        width: 49%;
+        padding: 10px 5px;
+        vertical-align: top; } }
+    @media (min-width: 768px) {
+      .unordered-list--bulleted li {
+        display: block;
+        width: 100%;
+        padding: 10px 5px; } }
 
 .blockquote-large {
   font-size: 1.5em;

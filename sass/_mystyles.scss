@@ -161,6 +161,22 @@ html {
 	li {
 		list-style: inherit;
 		padding: 10px 0;
+		text-align: left;
+
+		@include respond-to(xsmall) {
+
+			display: inline-block;
+			width: 49%;
+			padding: 10px 5px;
+			vertical-align: top;
+		}
+
+		@include respond-to(small) {
+
+			display: block;
+			width: 100%;
+			padding: 10px 5px;
+		}
 	}
 }
 
