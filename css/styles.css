@@ -6128,6 +6128,8 @@ body {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto; }
+  .formstack .section {
+    text-align: left; }
 
 .fsBody .fsForm input[type=text].fsRequired, .fsBody .fsForm input[type=file].fsRequired, .fsBody .fsForm input[type=number].fsRequired, .fsBody .fsForm input[type=email].fsRequired, .fsBody .fsForm input[type=tel].fsRequired, .fsBody .fsForm textarea.fsRequired, .fsBody .fsForm select.fsRequired {
   border-color: #636161 !important; }
