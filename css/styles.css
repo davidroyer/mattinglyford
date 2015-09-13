@@ -6038,6 +6038,12 @@ body {
   font-weight: bold; }
 .contact-title {
   font-style: italic; }
+.contact-section ul {
+  vertical-align: top; }
+  @media (min-width: 768px) {
+    .contact-section ul {
+      display: inline-block;
+      width: 49%; } }
 
 .mobile-nav {
   height: 100%;

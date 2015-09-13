@@ -15,4 +15,15 @@
 	&-title {
 		font-style: italic;
 	}
+
+	&-section ul {
+		
+		vertical-align: top;
+		@include respond-to(small) {
+			display: inline-block;
+			width: 49%;
+		}
+		
+	}
 }
+
