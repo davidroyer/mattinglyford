@@ -13,13 +13,23 @@
 		text-align: center;
 	}
 
+	& .col-sm-6 {
+
+		padding: 0;
+
+		@include respond-to(small) {
+
+			padding: 0 15px;
+		}
+	}
+
 	&:first-of-type {
 
 		padding-top: 0;
 	}
 
 	&--header {
-		margin: 40px 0;
+		margin: 20px 0;
 		
 		@include respond-to(xsmall) {
 
@@ -29,6 +39,7 @@
 		@include respond-to(small) {
 
 			font-size: 4rem;
+			margin: 40px 0;
 		}
 
 		@include respond-to(medium) {
@@ -40,6 +51,15 @@
 	// @inlcude respond-to(small) {
 	// 	text-align: left;
 	// }
+}
+
+
+
+.row {
+
+	margin-left: 0;
+	margin-right: 0;
+
 }
 
 /*	/////////////

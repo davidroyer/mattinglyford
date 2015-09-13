@@ -6225,19 +6225,29 @@ header {
   @media (min-width: 768px) {
     .section {
       text-align: center; } }
+  .section .col-sm-6 {
+    padding: 0; }
+    @media (min-width: 768px) {
+      .section .col-sm-6 {
+        padding: 0 15px; } }
   .section:first-of-type {
     padding-top: 0; }
   .section--header {
-    margin: 40px 0; }
+    margin: 20px 0; }
     @media (min-width: 500px) {
       .section--header {
         font-size: 3.5rem; } }
     @media (min-width: 768px) {
       .section--header {
-        font-size: 4rem; } }
+        font-size: 4rem;
+        margin: 40px 0; } }
     @media (min-width: 992px) {
       .section--header {
         font-size: 5rem; } }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
 
 /*	/////////////
 
@@ -6307,14 +6317,16 @@ footer a {
   color: #C15353;
   font-size: 19px; }
 
-.footer-top {
-  border-bottom: 1px solid gray;
-  padding: 30px 0 50px 0; }
-  .footer-top:before, .footer-top:after {
-    content: " ";
-    display: table; }
-  .footer-top:after {
-    clear: both; }
+.footer {
+  padding: 0 20px; }
+  .footer-top {
+    border-bottom: 1px solid gray;
+    padding: 30px 0 50px 0; }
+    .footer-top:before, .footer-top:after {
+      content: " ";
+      display: table; }
+    .footer-top:after {
+      clear: both; }
 
 .icomoon, .icomoon--large {
   color: gray;
