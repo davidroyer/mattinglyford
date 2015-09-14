@@ -77,6 +77,13 @@ label {
 
 	&--header {
 	@extend %h3-style;
+	margin-bottom: 0;
+	margin-top: 30px;
+
+		@include respond-to(small) {
+			
+			margin-bottom: 5px;
+		} 
 	}
 
 	&--horizontal-links {
@@ -290,7 +297,7 @@ span.icon {
 	border-color: #845A5A;
 	font-size: 19px;
 	font-weight: 700;
-	margin: 5px 0;
+	margin: 5px 0 10px;
 	-webkit-transition: all 0.4s cubic-bezier(0.46, 0.31, 0.38, 1.2);
 	transition: all 0.4s cubic-bezier(0.46, 0.31, 0.38, 1.2);
 	

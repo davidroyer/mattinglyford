@@ -1,10 +1,16 @@
 .contact {
 	
 	&-person {
-		margin-bottom: 20px;
+		margin: 40px 0;
+		
 
 		&:last-of-type {
 			margin-bottom: 0;
+		}
+
+		& li {
+
+			line-height: 1.4;
 		}
 	}
 
