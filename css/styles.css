@@ -6057,7 +6057,7 @@ body {
   overflow-y: hidden; }
   #mobile-menu a {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Playfair Display", sans-serif;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -6141,6 +6141,10 @@ body {
   .fsboxshadow .fsBody .fsForm {
     padding: 50px;
     box-shadow: 0 2px 5px 0 rgba(62, 62, 62, 0.86), 0 2px 10px 0 rgba(62, 62, 62, 0.82) !important; } }
+
+.fsBody .fsForm .fsSectionHeader {
+  margin: 0;
+  padding-bottom: 0; }
 
 .icons-contact {
   display: none; }
